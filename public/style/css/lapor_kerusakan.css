@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 140vh;
+    background-image: linear-gradient(rgba(4, 9, 40, 0.7), rgba(4, 9, 40, 0.7)),
+    url(../assets/ych.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulir {
+    width: 70vw;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.759);
+    backdrop-filter: blur(7px);
+    box-shadow: 0 .4rem .8rem #0005;
+    border-radius: .8rem;
+    overflow: hidden;
+    padding: .8rem 1rem;
+}
+
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-weight: 700;
+}
+.lapor-submit {
+    background-color: #27528b;
+    color: #f3cf0e;
+}
